@@ -1,0 +1,69 @@
+.payment-page-container{
+
+    background-image: url("C:\HogwartsVoyages-main\resources\login_back.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    color: white;
+    height: 50em;
+
+
+}
+.upi-check{
+    background-color:darkorchid;
+}
+.card-payment{
+    color: white;
+    
+}
+.card-info{
+   
+    background-color: rgb(167, 185, 245);
+}
+.upi-payment{
+    color: white;
+}
+.payment-details{
+    transform: translateX(10%)translateY(5%);
+    display:grid;
+    color: white;
+    background-color: rgb(119, 151, 255);
+
+    width: 20em;
+}
+.payment-checkin{
+    transform: translateX(0%)translateY(300%);
+    color: white;
+    
+}
+.payment-checkout{
+    transform: translateX(0%)translateY(350%);
+        color: white;
+}
+.upi-details{
+    transform: translateX(10%)translateY(5%);
+        display: grid;
+        color: white;
+        background-color: rgb(119, 151, 255);
+        width: 20em;
+
+}
+.book-hotels{
+    color: white;
+    margin: 5em;
+}
+
+.pay-submit {
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 10em;
+    background-color: rgb(165, 186, 255);
+}
+.quiz{
+    margin-top: -14em;
+    margin-bottom: 30em;
+}

@@ -1,0 +1,53 @@
+.button-primary {
+    background-color: #6b63b5;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    
+    margin-top: 3.5em;
+    
+    cursor: pointer;
+    width:10em;
+    font-size: 16px;
+}
+
+.button-primary:hover {
+background-color: rgb(42, 42, 98);
+}
+
+.button-secondary {
+    background-color: transparent;
+    color: #807abc;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button-secondary:hover {
+    text-decoration: underline;
+}
+
+.button-google {
+background-color: #6b63b5;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-google:hover {
+background-color: #201d39;
+}
+
+.error-text {
+    color: #db4437;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Mason Sans OT', serif;
+    text-align: center;
+}

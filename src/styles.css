@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap");
+@font-face {
+    font-family: 'harry';
+    src: url('C:\HogwartsVoyages-main\resources\HARRYP__.TTF');
+    /* Add additional font properties if necessary, such as font-weight and font-style */
+}
+body {
+    font-family: 'Mason Sans OT', serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* Start with opacity 0 */
+        transform: translateY(20px);
+        /* Start with a 20px downward translation */
+    }
+
+    to {
+        opacity: 1;
+        /* End with opacity 1 */
+        transform: translateY(0);
+        /* End with no translation */
+    }
+}
+.login-container {
+    background-image: url('C:\HogwartsVoyages-main\resources\login_back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s forwards;
+    width: 100%;
+    height: 50em;
+}
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        /* Start with opacity 0 */
+        transform: translateY(20px);
+        /* Start with a 20px downward translation */
+    }
+
+    to {
+        opacity: 1;
+        /* End with opacity 1 */
+        transform: translateY(0);
+        /* End with no translation */
+    }
+}
+.header-text {
+    
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+color: rgb(165, 186, 255);
+   font-family: 'harry';
+    position: absolute;
+    font-size: 64px;
+    top: 0;
+    /* Position it at the top of the page */
+    left: 50%;
+    margin-top: 100px;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Adjust horizontal centering */
+    padding: 20px;
+}
+
+.login-box {
+   
+    background-size: contain;
+    width: 20em;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-20%);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4em;
+    
+}
+
+
+.login-input {
+
+align-items: center;
+color: white;
+background-color: rgba(113, 146, 255, 0.422);
+border-color: white;
+    /* Set the text color of the input fields to white */
+
+height: 3em;
+width:25em;
+margin-bottom: 1em;
+}
+.login-input::placeholder {
+    color: white;
+}
+
+
+.login-button {
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideUp 1s forwards;
+    padding-top: 1.7em;
+    font-family: 'Mason Sans OT', serif;
+    font-size: 4em;
+color: rgb(165, 186, 255);
+}
+.giphy-embed{
+    height:8em;
+  
+    transform: translateX(150%)translateY(-280%);
+   
+    
+}
+
+.error-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'harry';
+    font-size: 2em;
+}
+ 
+
+
+
+/* 
+/*  */

@@ -1,0 +1,162 @@
+.hotel-photo-det {
+    background-position: center;
+    height: 20em;
+    width: 60em;
+}
+
+.hotel-details2-container2 {
+        background-image: url('C:\HogwartsVoyages-main\resources\login_back.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 2%;
+}
+.hotel-photo2 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    height: 10em;
+}
+
+.hotel-name2 {
+    font-size: 34px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-right: 400px;
+transform: translateX(190%);
+    color: rgb(119, 148, 243);;
+}
+
+.hotel-address {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(119, 148, 243);;
+    width: 200px;
+}
+
+.hotel-price2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(119, 148, 243);;
+    width: 200px;
+}
+
+.hotel-details-content {
+    padding: 10px;
+}
+
+/* Apply different background images based on nth child */
+/* .hotel-details2-container2:nth-child(1) .hotel-photo2 {
+    background-image: url('C:\HogwartsVoyages-main\public\wizard-hotel.jpg');
+    background-size: 100% 100%;
+    height: 20em;
+}
+
+.hotel-details2-container2:nth-child(2) .hotel-photo2 {
+    background-image: url('C:\HogwartsVoyages-main\public\Wizard Blu.jpeg');
+}
+
+.hotel-details2-container2:nth-child(3) .hotel-photo2 {
+    background-image: url('C:\HogwartsVoyages-main\public\wizard-hotel.jpg');
+} */
+
+/* Add more nth child styles as needed */
+/* Styles for the amenities section */
+/* Styles for the amenities section */
+.amenities-section {
+    margin-bottom: 20px;
+    
+    font-size: 24px;
+    color: rgb(119, 148, 243);;
+    
+
+}
+.Ratings{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:rgb(119, 148, 243);
+}
+.Ratings h3{
+    font-size: 24px;
+    color: rgb(119, 148, 243);
+}
+.Ratings label{
+    font-size: 24px;
+    font-weight: bold;
+}
+.amenities-section h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.amenities-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details{
+    margin-bottom: 20px;
+    color:rgb(119, 148, 243);
+    display: flex;
+    justify-content: space-between;
+     
+}
+.submitreview{
+    
+    background-color: rgb(79, 118, 246);
+    color: white;
+}
+
+.amenities-section li {
+    flex: 0 0 50%;
+    /* Two columns, change the value for more columns */
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.amenities-section li svg {
+    margin-right: 10px;
+}
+
+/* Styles for the highlights section */
+.highlights-section {
+    margin-bottom: 20px;
+    
+    color: rgb(119, 148, 243);;
+    
+    font-size: 24px;
+}
+
+.highlights-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.highlights-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlights-section li {
+    flex: 0 0 50%;
+    /* Two columns, change the value for more columns */
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.highlights-section li svg {
+    margin-right: 10px;
+}

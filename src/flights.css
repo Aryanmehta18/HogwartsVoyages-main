@@ -1,0 +1,174 @@
+/* Styles for the flights container */
+.flights-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: azure;
+   background-image: url('C:\HogwartsVoyages-main\resources\login_back.jpg');
+   min-height: 100vh;
+   background-size: 100% 100%;
+   
+    background-size: 100% 100%;
+    border-radius: 8px;
+    
+    margin-bottom: 20px;
+}
+.flights-heading{
+    font-size: 34px;
+    color: rgb(119, 148, 243);
+    transform: translateY(-400%);
+}
+/* Styles for the flight details */
+.flight-details {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(119, 148, 243);
+   gap:35em;
+   
+    font-size: 18px;
+}
+.flight-search{
+    display: flex;
+    gap: 4em;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+/* Styles for the flight list container */
+.flights-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+/* Styles for the flight card */
+.flight-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+background-color: rgb(83, 121, 247);
+    margin-top: 20px;
+   margin-bottom: 0px;
+    
+    
+    
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    height: 10em;
+   
+  
+}
+
+/* Styles for the flight symbol */
+.flight-symbol {
+    
+  transform: translateY(130%);
+    font-size: 40px;
+   
+}
+
+/* Styles for the airline name */
+.airline-name {
+    font-weight: bold;
+    color: white; 
+
+}
+
+/* Styles for the flight info */
+.flight-info {
+    color: white;
+    font-weight: bold;
+}
+
+/* Styles for the flight time */
+.flight-time {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    
+   
+    transform: translateX(100%)translateY(-690%);
+   
+}
+.seats{
+    font-size: 24px;
+    font-weight: bold;
+color: rgb(119, 148, 243);
+    transform: translateX(-10%)translateY(-400%);
+}
+.head-text3{
+    font-size: 34px;
+    transform: translateX(100%) translateY(-70%);
+    font-family: 'harry';
+    margin-top: 50px;
+}
+
+/* Styles for the flight line */
+.flight-line {
+    width: 100%;
+    height: 2px;
+    color: white;
+}
+
+/* Styles for the flight price */
+.flight-price {
+    text-align: right;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transform: translateX(300%)translateY(10%);
+    margin-bottom: 10px;
+}
+
+/* Styles for the search input container */
+.search-input-co3 {
+    display:flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    
+    
+   
+   
+    width: 200px;
+    height: 50px;
+    background-color: rgb(79, 118, 246);
+    
+}
+.search-input-co3 input {
+    margin-left: 20px;
+    /* Add left margin to create space between the inputs */
+}
+.search-input-co3 label {
+    display: inline;
+    margin-left: 10px;
+    
+    color: white;
+}
+.search-input-flights2{
+    transform: translateX(-80%)translateY(-300%);
+}
+.seats-input{
+    background-color: rgba(113, 146, 255, 0.422);
+    border-radius: 4em;
+    height: 3em;
+    transform: translateX(-90%)translateY(-300%);
+}
+.seats-input::placeholder{
+    color: white;
+}
+.book-button4{
+    background-color: rgba(113, 146, 255, 0.422);
+    color: white;
+    transform:translateX(-300%)translateY(150%);
+}
+/* Styles for the search input label */
